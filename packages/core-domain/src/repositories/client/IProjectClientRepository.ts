@@ -1,5 +1,5 @@
-import { Project } from "../../entities/Project";
-import { ResultState } from "../../entities/ResultState";
+import { Project } from "@repo/core-domain/entities/Project";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
 
 export interface IProjectClientRepository {
   fetch(): Promise<ResultState<Project[]>>;

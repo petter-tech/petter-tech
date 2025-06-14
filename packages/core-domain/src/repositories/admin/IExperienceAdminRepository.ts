@@ -1,5 +1,5 @@
-import { Experience } from "../../entities/Experience";
-import { ResultState } from "../../entities/ResultState";
+import { Experience } from "@repo/core-domain/entities/Experience";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
 
 export interface IExperienceAdminRepository {
   fetch(): Promise<ResultState<Experience[]>>;

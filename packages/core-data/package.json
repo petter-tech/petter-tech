@@ -1,0 +1,19 @@
+{
+  "name": "@repo/core-data",
+  "version": "1.0.0",
+  "description": "This is the layer that is going to contain the api's consume logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@repo/core-domain": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./admin/*": "./src/admin/*.ts",
+    "./client/*": "./src/client/*.ts"
+  }
+}

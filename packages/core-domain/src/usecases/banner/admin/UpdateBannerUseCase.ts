@@ -1,6 +1,6 @@
-import { Banner } from "../../../entities/Banner";
-import { ResultState } from "../../../entities/ResultState";
-import { IBannerAdminRepository } from "../../../repositories/admin/IBannerAdminRepository";
+import { Banner } from "@repo/core-domain/entities/Banner";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+import { IBannerAdminRepository } from "@repo/core-domain/repositories/admin/IBannerAdminRepository";
 
 export class UpdateBannerUseCase {
   constructor(private repository: IBannerAdminRepository) {}

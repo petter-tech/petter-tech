@@ -1,5 +1,5 @@
-import { ResultState } from "../../../entities/ResultState";
-import { IExperienceAdminRepository } from "../../../repositories/admin/IExperienceAdminRepository";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+import { IExperienceAdminRepository } from "@repo/core-domain/repositories/admin/IExperienceAdminRepository";
 
 export class DeleteExperienceUseCase {
   constructor(private repository: IExperienceAdminRepository) {}

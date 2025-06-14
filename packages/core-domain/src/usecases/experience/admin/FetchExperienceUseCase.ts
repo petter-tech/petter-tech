@@ -1,6 +1,6 @@
-import { Experience } from "../../../entities/Experience";
-import { ResultState } from "../../../entities/ResultState";
-import { IExperienceAdminRepository } from "../../../repositories/admin/IExperienceAdminRepository";
+import { Experience } from "@repo/core-domain/entities/Experience";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+import { IExperienceAdminRepository } from "@repo/core-domain/repositories/admin/IExperienceAdminRepository";
 
 export class FetchExperiencesUseCase {
   constructor(private repository: IExperienceAdminRepository) {}

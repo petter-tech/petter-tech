@@ -1,8 +1,8 @@
-import { ResultState } from "../../../entities/ResultState";
-import { IProfileAdminRepository } from "../../../repositories/admin/IProfileAdminRepository";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+import { IProjectAdminRepository } from "@repo/core-domain/repositories/admin/IProjectAdminRepository";
 
-export class DeleteProfileUseCase {
-  constructor(private repository: IProfileAdminRepository) {}
+export class DeleteProjectUseCase {
+  constructor(private repository: IProjectAdminRepository) {}
   execute(id: string): Promise<ResultState<string>> {
     return this.repository.delete(id);
   }

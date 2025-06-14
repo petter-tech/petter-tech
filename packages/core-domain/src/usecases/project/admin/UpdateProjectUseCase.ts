@@ -1,6 +1,6 @@
-import { Project } from "../../../entities/Project";
-import { ResultState } from "../../../entities/ResultState";
-import { IProjectAdminRepository } from "../../../repositories/admin/IProjectAdminRepository";
+import { Project } from "@repo/core-domain/entities/Project";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+import { IProjectAdminRepository } from "@repo/core-domain/repositories/admin/IProjectAdminRepository";
 
 export class UpdateProjectUseCase {
   constructor(private repository: IProjectAdminRepository) {}

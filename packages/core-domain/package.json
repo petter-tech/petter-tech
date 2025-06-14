@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "exports": {
+    "./entities/*": "./src/entities/*.ts",
+    "./repositories/*": "./src/repositories/*.ts",
+    "./usecases/*": "./src/usecases/*.ts"
+  }
 }
