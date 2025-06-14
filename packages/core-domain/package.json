@@ -1,0 +1,12 @@
+{
+  "name": "@repo/core-domain",
+  "version": "1.0.0",
+  "description": "Here we have the business logic and the entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
