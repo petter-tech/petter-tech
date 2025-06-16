@@ -1,0 +1,9 @@
+import { Project } from "@repo/core-domain/entities/Project";
+import { ResultState } from "@repo/core-domain/entities/ResultState";
+
+export interface IProjectAdminRepository {
+  fetch(): Promise<ResultState<Project[]>>;
+  create(project: Project): Promise<ResultState<Project>>;
+  update(project: Project): Promise<ResultState<Project>>;
+  delete(id: string): Promise<ResultState<string>>;
+}
