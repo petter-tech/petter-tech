@@ -4,7 +4,8 @@ import { IProfileClientRepository } from "@repo/core-domain/repositories/client/
 
 export class ProfileClientRepository implements IProfileClientRepository {
   private mockProfile: Profile | null = {
-    id: "my-portfolio-profile", // Assuming a fixed ID for the single profile
+    id: "my-portfolio-profile",
+    name: "Petter Garcia",
     headline: "Passionate about creating impactful web experiences",
     description:
       "With over 5 years of experience in full-stack development, I specialize in building scalable web applications using modern technologies. My expertise includes React, Node.js, and cloud architecture. I'm passionate about creating elegant solutions to complex problems and sharing knowledge with the developer community.",
