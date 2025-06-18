@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [new URL("https://images.pexels.com/**")],
+  },
+};
 
 export default nextConfig;

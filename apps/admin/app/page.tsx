@@ -1,5 +1,5 @@
-import { Button } from "@repo/ui/components/ui/button";
+import LoginPage from "../pages/login/LoginPage";
 
 export default function Home() {
-  return <Button variant="secondary">Click Me!</Button>;
+  return <LoginPage />;
 }
