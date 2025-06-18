@@ -50,6 +50,7 @@ export class BannerAdminRepository implements IBannerAdminRepository {
       };
     }
   }
+
   async create(banner: Banner): Promise<ResultState<Banner>> {
     await new Promise((resolve) => setTimeout(resolve, 300));
 
