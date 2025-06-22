@@ -13,7 +13,9 @@ export class ProfileAdminRepository implements IProfileAdminRepository {
       "With over 5 years of experience in full-stack development, I specialize in building scalable web applications using modern technologies. My expertise includes React, Node.js, and cloud architecture. I'm passionate about creating elegant solutions to complex problems and sharing knowledge with the developer community.",
     githubUrl: "https://github.com/your-github-profile",
     cvUrl: "/path/to/your/cv.pdf", // Assuming a relative path to a hosted CV
-    picture: "https://placehold.co/150x150/E0E0E0/333333?text=Profile+Pic", // Placeholder image
+    picture:
+      "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg", // Placeholder image
+    socialMedias: [],
   };
 
   async fetch(): Promise<ResultState<Profile>> {

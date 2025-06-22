@@ -1,3 +1,8 @@
+export interface SocialMedia {
+  name: string;
+  url: string;
+  icon: string;
+}
 export interface Profile {
   id: string;
   name: string;
@@ -6,4 +11,5 @@ export interface Profile {
   githubUrl: string;
   cvUrl: string;
   picture: string;
+  socialMedias: SocialMedia[];
 }

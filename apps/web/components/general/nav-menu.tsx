@@ -13,7 +13,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@repo/ui/components/ui/navigation-menu";
-import { Github, Menu, Twitter, X } from "lucide-react";
+import { Github, Menu, Twitter } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";
 

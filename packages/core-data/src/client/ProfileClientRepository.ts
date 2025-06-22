@@ -13,6 +13,7 @@ export class ProfileClientRepository implements IProfileClientRepository {
     cvUrl: "/path/to/your/cv.pdf", // Assuming a relative path to a hosted CV
     picture:
       "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg",
+    socialMedias: [],
   };
 
   async fetch(): Promise<ResultState<Profile>> {
