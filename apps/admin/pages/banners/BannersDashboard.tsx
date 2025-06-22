@@ -20,7 +20,6 @@ function BannersDashboard({ initialData = [] }: { initialData?: Banner[] }) {
   };
 
   const handleCancel = () => {
-    console.log("Cancel is called");
     setView("list");
   };
 

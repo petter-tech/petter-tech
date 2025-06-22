@@ -115,7 +115,7 @@ function BannerForm({ props }: { props: BannerFormProps }) {
             "There was an error updating the Banner, please inform the developer to fix the issue",
         });
       } else {
-        toast.success("Banner successfully created");
+        toast.success("Banner successfully updated");
         props.onSubmit(banner);
       }
     } catch (error) {
