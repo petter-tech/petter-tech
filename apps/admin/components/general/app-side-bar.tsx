@@ -33,7 +33,7 @@ const data = {
           url: "/dashboard/experiences",
         },
         {
-          title: "Project",
+          title: "Projects",
           url: "/dashboard/projects",
         },
       ],
